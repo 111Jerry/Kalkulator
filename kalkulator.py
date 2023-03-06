@@ -66,7 +66,7 @@ PrzeÅ›lij link do zdalnego repozytorium z zadaniem Mentorowi. Sprawisz mu frajdÄ
 import sys
 import logging
 logging.basicConfig(level=logging.DEBUG, format='%(asctime)s %(message)s', filename="log_kalkulator.log")
-
+number = 0
 def math_calculate(number):
     if number == 1:
         logging.info("You are an adult")

@@ -28,7 +28,6 @@ W wypadku mnożenia i dodawania daj użytkownikowi możliwość wpisania większ
 Prześlij link do zdalnego repozytorium z zadaniem Mentorowi. Sprawisz mu frajdę!
 """
 
-import sys
 import logging
 logging.basicConfig(level=logging.DEBUG, format='%(asctime)s %(message)s', filename="log_kalkulator.log")
 
